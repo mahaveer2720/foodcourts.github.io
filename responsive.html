@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="responsive.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="foodimage/images.png" type="image/x-icon" />
+    <title>Food Court</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Food Court</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#restaurant">Add Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-outline-warning p-2 my-lg-0 my-2"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="home">
+      <h1>Order Food Online</h1>
+      <p>Find the best restaurants in India</p>
+      <div class="input-group m-4">
+        <input type="text" class="form-control" placeholder="Email Address" />
+        <button class="btn signin">Get Start</button>
+      </div>
+    </section>
+    <section id="About">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img
+              src="foodimage/InShot_20230928_191834962.png"
+              alt="image/x-icon"
+              width="500"
+              height="500"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
+            <h1>ABOUT US</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
+              velit repellendus tenetur temporibus similique fuga facilis,
+              consequatur voluptatem harum, voluptate libero quod dolore, vitae
+              eum adipisci aliquid magnam enim veniam?Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Sed velit repellendus tenetur
+              temporibus similique fuga facilis, consequatur voluptatem harum,
+              voluptate libero quod dolore, vitae eum adipisci aliquid magnam
+              enim veniam?Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Accusantium incidunt suscipit assumenda dolorum amet,
+              temporibus repellendus tempore labore nam a, impedit, velit quam
+              molestias corporis cum odio voluptatem necessitatibus veniam!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="restaurant">
+      <div class="container" style="padding: 0px 0px 450px 0px">
+        <h1 style="font-weight: bold">
+          Top Restaurant in Chennai
+          <svg
+            style="margin-bottom: 14px"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-geo-alt"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+            />
+            <path
+              d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+            />
+          </svg>
+        </h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card-img-top" style="padding: 10px 60px">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="foodimage/masala-dosa-with-chutney-sambar-potato-sabzi-cone-triangle-roll-shap_466689-24023.avif"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5
+                    style="width: 900px; font-size: 18px; font-weight: bold"
+                    class="card-title"
+                  >
+                    Sangeetha Veg <br />
+                    Restaurant
+                  </h5>
+                  <svg
+                    style="color: green; position: absolute"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p style="margin-left: 20px; font-weight: bold">4.4</p>
+                  <p>
+                    Chinese, Indian <br />
+                    New Perungalathur
+                  </p>
+                  <a
+                    href="https://www.sangeethaveg.com/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    >Click Here</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card-img-top" style="padding: 10px 60px">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="foodimage/360_F_441200344_iTkgSlBqkep1bcSmdWXTA1ZkCRFl9J6a.jpg"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5
+                    style="font-size: 18px; font-weight: bold"
+                    class="card-title"
+                  >
+                    The BVK Biryani (Bai Veetu Kalyanam)
+                  </h5>
+                  <svg
+                    style="color: green; position: absolute"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p style="margin-left: 20px; font-weight: bold">3.9</p>
+                  <p>
+                    Biryani, South Indian <br />
+                    West Tambaram
+                  </p>
+                  <a
+                    href="https://thebvkbiryani.com/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click Here</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card-img-top" style="padding: 10px 60px">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="foodimage/istockphoto-1158578874-612x612.jpg"
+                  class="card-img-top"
+                  height="195"
+                />
+                <div class="card-body">
+                  <h5
+                    style="font-size: 18px; font-weight: bold"
+                    class="card-title"
+                  >
+                    A2B - Adyar Ananda Bhavan
+                  </h5>
+                  <svg
+                    style="color: green; position: absolute"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p style="margin-left: 20px; font-weight: bold">4.3</p>
+                  <p>
+                    South Indian, North Indian <br />
+                    Tambaram
+                  </p>
+                  <a
+                    href="https://aabsweets.com/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click Here</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card-img-top" style="padding: 10px 60px">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="foodimage/Iconic-Vegetarian-Dishes-in-Indian-Cuisine.jpg"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5
+                    style="width: 900px; font-size: 18px; font-weight: bold"
+                    class="card-title"
+                  >
+                    Hot Chips
+                  </h5>
+                  <svg
+                    style="color: green; position: absolute"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p style="margin-left: 20px; font-weight: bold">4.3</p>
+                  <p>North Indian, South Indian Tambaram 11.6 km</p>
+                  <a
+                    href="https://tambaram-hotchipsvegrestaurant.business.site/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click Here</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card-img-top" style="padding: 10px 60px">
+              <div class="card" style="width: 18rem">
+                <img src="foodimage/Pizza-3007395.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5
+                    style="font-size: 18px; font-weight: bold"
+                    class="card-title"
+                  >
+                    Domino's Pizza
+                  </h5>
+                  <svg
+                    style="color: green; position: absolute"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p style="margin-left: 20px; font-weight: bold">4.2</p>
+                  <p>Pizzas, Italian GST Road Tambaram</p>
+                  <a
+                    href="https://www.dominos.co.in/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click Here</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card-img-top" style="padding: 10px 60px">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="foodimage/Miami_Packaging_Pilot_Image_4.30.21.jpg"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5
+                    style="font-size: 18px; font-weight: bold"
+                    class="card-title"
+                  >
+                    Burger King
+                  </h5>
+                  <svg
+                    style="color: green; position: absolute"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p style="margin-left: 20px; font-weight: bold">4.1</p>
+                  <p>
+                    Burgers, American <br />
+                    Kavanur 15.3 km
+                  </p>
+                  <a
+                    href="https://www.burgerking.in/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click Here</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container box">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1
+              style="
+                color: rgba(255, 255, 255, 0.87);
+                border-radius: 5px;
+                width: 350px;
+                padding: 0px 0px 0px 10px;
+                font-weight: 700;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-telephone-forward"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+              Contact Us
+            </h1>
+            <form action="">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Your Name "
+              />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter Your Email "
+              />
+              <textarea
+                class="form-control"
+                placeholder="Enter Your Message"
+              ></textarea>
+              <button class="btn signin">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Copy Right &copy;Responsive 2023</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
