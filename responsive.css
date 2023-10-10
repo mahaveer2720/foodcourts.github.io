@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+  background: black;
+}
+
+.container-fluid .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgb(252, 122, 0) !important;
+}
+#navbarSupportedContent a {
+  color: white;
+  border-bottom: 2px soild transparent;
+}
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid rgb(252, 122, 0);
+}
+
+#navbarSupportedContent button {
+  color: white;
+  width: 6rem;
+}
+#navbarSupportedContent button:hover {
+  background-color: rgb(252, 122, 0);
+}
+
+/******* Home  ******/
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(foodimage/ab4976e20568b29bbfee2ab17fd38f00.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+#home h1 {
+  font-size: 60px;
+  color: white;
+  padding-left: 70px;
+  padding-right: 60px;
+}
+#home p {
+  font-size: 20px;
+  color: white;
+}
+#home .input-group {
+  width: 40%;
+  height: 45px;
+}
+.signin {
+  background: rgb(252, 122, 0) !important;
+  color: white !important;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+/******* Abouts us  ******/
+
+#About {
+  background-color: silver;
+}
+#About h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+/******* restaurant ******/
+
+#restaurant h1 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+#restaurant img {
+  width: 286px;
+}
+#card-img-top {
+  padding: 20px 60px;
+}
+
+/******* contact ******/
+#contact {
+  position: absolute;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(foodimage/professional-kitchen-with-chefs-cooking-restaurant-kitchen-with-beautiful-lights-delicious-food_751108-4219.avif);
+
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  margin: -400px 0px 0px 0px;
+  height: 100%;
+}
+
+.box {
+  width: 80% !important;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+#contact input {
+  margin: 10px 0px;
+}
+#contact textarea {
+  margin: 10px 0px;
+}
+
+/******* footer ******/
+
+footer {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 250px;
+}
